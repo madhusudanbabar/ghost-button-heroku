@@ -1,0 +1,30 @@
+{
+    "name": "Ghost CMS",
+    "description": "Ghost CMS on heroku with all the integrations and email, newsletters",
+    "repository": "https://github.com/madhusudanbabar/ghost-button-heroku.git",
+    "logo": "https://madhusudan.live/_nuxt/img/logo.757995e.png",
+    "success_url": "/welcome",
+    "keywords": ["ghost", "cms", "headless cms", "blog"],
+    "scripts": {
+        "postdeploy": "bin/deploy"
+    },
+    "env": {
+        "APP_URL": {
+            "description": "The full url of your app, e.g https://YOURAPP.herokuapp.com",
+            "value": "https://App.herokuapp.com",
+            "required": true
+        },
+        "MAIL_USER": {
+            "description": "Username of your SMTP mail account",
+            "required": true
+        },
+        "MAIL_PASS":{
+            "description": "Password for your smtp account",
+            "required": true
+        },
+        "MAIL_HOST": {
+            "description": "SMTP host url of your mailing account",
+            "required": true
+        }
+    }
+  }
