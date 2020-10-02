@@ -1,0 +1,15 @@
+{
+  "name": "ghost",
+  "version": "1.0.0",
+  "description": "My simple CMS",
+  "main": "ghost.js",
+  "author": "krypton",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node ghost"
+  },
+  "dependencies": {
+    "ghost": "^3.35.2"
+  }
+}
