@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+echo "initializing..."
+echo "creating production config at" 
+pwd
+touch config.production.js
+echo "setting permissions"
+chmod u+w config.production.js
+
