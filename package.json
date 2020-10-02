@@ -1,7 +1,7 @@
 {
   "name": "ghost",
   "version": "1.0.0",
-  "description": "My simple CMS",
+  "description": "Ghost CMS for ",
   "main": "ghost.js",
   "author": "krypton",
   "license": "MIT",
@@ -10,6 +10,9 @@
     "start": "node ghost"
   },
   "dependencies": {
-    "ghost": "^3.35.2"
+    "casper": "github:tryghost/casper",
+    "ghost": "^3.35.2",
+    "mailgun-js": "^0.22.0",
+    "mysql": "^2.18.1"
   }
 }

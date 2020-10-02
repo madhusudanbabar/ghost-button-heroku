@@ -1,4 +1,4 @@
-var ghost = require("ghost");
+const ghost = require("ghost");
 
 // Run a single Ghost process
 ghost()
